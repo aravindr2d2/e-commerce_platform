@@ -1,6 +1,6 @@
 # E-commerce Platform Implementing CI/CD Pipeline and Cloud Infrastructure
 
-This project demonstrates the setup of a robust and scalable CI/CD pipeline and cloud infrastructure for an e-commerce platform, focusing on automation, containerization, and monitoring.
+This project demonstrates the setup of a scalable CI/CD pipeline and cloud infrastructure for e-commerce platform, focusing on automation, containerization, and monitoring.
 
 ## Table of Contents
 - [CI/CD Pipeline](#cicd-pipeline)
