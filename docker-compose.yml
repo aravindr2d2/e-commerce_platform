@@ -30,3 +30,24 @@ services:
     image: grafana/grafana
     ports:
       - "3001:3000"
+
+services:
+  elasticsearch:
+    image: elasticsearch:7.10.1
+    environment:
+      - discovery.type=single-node
+    ports:
+      - "9200:9200"
+
+  logstash:
+    image: logstash:7.10.1
+    volumes:
+      - ./logstash.conf:/usr/share/logstash/pipeline/logstash.conf
+    ports:
+      - "5044:5044"
+
+  kibana:
+    image: kibana:7.10.1
+    ports:
+      - "5601:5601"
+
