@@ -5,7 +5,6 @@ This project demonstrates the setup of a scalable CI/CD pipeline and cloud infra
 ## Table of Contents
 - [CI/CD Pipeline](#cicd-pipeline)
   - [GitHub Actions Setup](#github-actions-setup)
-  - [Jenkins Setup](#jenkins-setup)
 - [Containerization](#containerization)
   - [Dockerize the Node.js Application](#dockerize-the-nodejs-application)
   - [Docker Compose](#docker-compose)
@@ -27,16 +26,6 @@ This project demonstrates the setup of a scalable CI/CD pipeline and cloud infra
     - Run tests
     - Build Docker image
     - Push Docker image to repository
-    - Deploy to Azure
-
-### Jenkins Setup (Optional)
-1. Ensure Jenkins is installed on your server.
-2. Open the `Jenkinsfile` in the root directory.
-3. Follow the steps in the `Jenkinsfile` to configure the Jenkins pipeline:
-    - Checkout code
-    - Build Node.js application
-    - Run tests
-    - Build and push Docker image
     - Deploy to Azure
 
 ## Containerization
