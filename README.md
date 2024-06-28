@@ -2,6 +2,57 @@
 
 This project demonstrates the setup of a scalable CI/CD pipeline and cloud infrastructure for e-commerce platform, focusing on automation, containerization, and monitoring.
 
+# E-commerce Platform CI/CD Pipeline and Cloud Infrastructure
+
+This project demonstrates the setup of a robust and scalable CI/CD pipeline and cloud infrastructure for an e-commerce platform, focusing on automation, containerization, and monitoring.
+
+## Flowchart
+
+```plaintext
+                Start
+                  |
+                  v
+     Configure CI/CD Pipeline
+       /                    \
+GitHub Actions        Jenkins Setup (Optional)
+      |                           |
+Define Workflow            Define Pipeline
+ (.github/workflows/ci-cd.yml)    (Jenkinsfile)
+                  |
+                  v
+  Dockerize Node.js Application
+                  |
+         Create Dockerfile
+                  |
+                  v
+    Create Docker Compose File
+         (docker-compose.yml)
+                  |
+                  v
+   Set Up Cloud Infrastructure
+       (terraform/ main.tf, variables.tf, outputs.tf)
+                  |
+                  v
+  Deploy Application to Cloud Provider
+                  |
+                  v
+   Configure Monitoring and Logging
+       /                         \
+Prometheus and Grafana        ELK Stack
+      |                             |
+Configure in docker-compose.yml  Configure in docker-compose.yml
+        and prometheus.yml       and logstash.conf
+                  |
+                  v
+   Document and Test Setup
+    (README.md, test/ scripts)
+                  |
+                  v
+Verify Endpoints and Dashboards
+                  |
+                  v
+                 End
+
 ## Table of Contents
 - [CI/CD Pipeline](#cicd-pipeline)
   - [GitHub Actions Setup](#github-actions-setup)
