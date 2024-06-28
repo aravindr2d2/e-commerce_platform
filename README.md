@@ -27,7 +27,7 @@ This project demonstrates the setup of a scalable CI/CD pipeline and cloud infra
                   |
                   v
    Set Up Cloud Infrastructure
-       (terraform/ main.tf, variables.tf, outputs.tf)
+       (main.tf, variables.tf, outputs.tf)
                   |
                   v
   Deploy Application to Cloud Provider (AZURE)
