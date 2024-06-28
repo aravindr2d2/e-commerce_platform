@@ -52,6 +52,7 @@ Verify Endpoints and Dashboards
                   |
                   v
                  End
+```
 
 ## Table of Contents
 - [CI/CD Pipeline](#cicd-pipeline)
